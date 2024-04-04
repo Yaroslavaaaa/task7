@@ -1,0 +1,54 @@
+.gallery{
+    display: flex;
+    justify-content: center;
+}
+
+/* .left-gallery, .right-gallery{
+    display: flex;
+    flex-direction: column;
+} */
+
+
+.left-gallery{
+    margin-right: 3vw;
+}
+
+.right-gallery{
+    margin-left: 3vw;
+}
+
+
+.image{
+    border-radius: 0.5vw;
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+
+/* Для левой галереи */
+/* .left-gallery .image {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.left-gallery .image.loaded {
+    opacity: 1;
+    transform: translateX(0);
+} */
+
+/* Для правой галереи */
+/* .right-gallery .image {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.right-gallery .image.loaded {
+    opacity: 1;
+    transform: translateX(0);
+} */

@@ -1,0 +1,6 @@
+.gallery-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0vw 5vw;
+}
